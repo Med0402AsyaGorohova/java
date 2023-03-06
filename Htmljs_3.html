@@ -55,11 +55,16 @@
     </footer>
     <script src="js\scripts.js"></script>
 <script>
-    data='27 февраля';
-    let user='Ася';
-    let age=19;
-    let messege-'hello';
-    alert('Сегодня'+ data+ messege+user+ age);
-    </script>
- </body>
+    console.log('Привет,JavaScript');
+    now = new Date();
+    console.log(now);
+    alert('Сегодня ' + now);
+    confirm('Это правильная дата?');
+    prompt('Тогда введите правильную дату', now)
+    let c = confirm('Это правильная дата');
+    console.log(c);
+    let p = prompt('Тогда введите правильную дату', now)
+    console.log(p);
+</script>
+</body>
 </html>

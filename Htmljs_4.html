@@ -55,11 +55,45 @@
     </footer>
     <script src="js\scripts.js"></script>
 <script>
-    data='27 февраля';
-    let user='Ася';
-    let age=19;
-    let messege-'hello';
-    alert('Сегодня'+ data+ messege+user+ age);
-    </script>
- </body>
+    let infoPazient=['Иванов','Иван','Иванович',15,'мая',1974,'м'];
+    console.log(infoPazient);
+    console.log(infoPazient[0]);
+    console.log(infoPazient[5]);
+    let lastname;
+    lastname=prompt('Введите фамилию пациента', lastname);
+    console.log(lastname);
+    infoPazient[0]=lastname;
+    console.log(infoPazient);
+    let firstname;
+    firstname= prompt('Введите имя пациента',firstname);
+    console.log(firstname);
+    infoPazient[1]=firstname;
+    console.log(infoPazient);
+    let middlename;
+    middlename= prompt('Введите отчество пациента',middlename);
+    console.log(middlename);
+    infoPazient[2]=middlename;
+    console.log(infoPazient);
+    let Date;
+    Date= prompt('Введите дату рождения пациента',Date);
+    console.log(Date);
+    infoPazient[3]=Date;
+    console.log(infoPazient);
+    let month;
+    month= prompt('Введите месяц рождения пациента',month);
+    console.log(month);
+    infoPazient[4]=month;
+    console.log(infoPazient);
+    let year;
+    year= prompt('Введите год рождения пациента',year);
+    console.log(year);
+     infoPazient[5]=year;
+    console.log(infoPazient);
+    let gender;
+    gender= prompt('Введите пол пациента',gender);
+    console.log(gender);
+    infoPazient[6]=gender;
+    console.log(infoPazient);
+</script>
+</body>
 </html>
