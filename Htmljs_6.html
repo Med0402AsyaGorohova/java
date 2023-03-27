@@ -101,7 +101,7 @@
             };
 console.log(person);
 SNILS4="SNILS 4"
-let lastname;
+/*let lastname;
 lastname=prompt("Введите фамилию пациента", lastname);
    // console.log(lastname);
 infoPazient[0]=lastname;
@@ -136,8 +136,17 @@ let gender;
 gender= prompt("Введите пол пациента",gender);
     //console.log(gender);
 infoPazient[6]=gender;
-console.log(infoPazient);
-person.SNILS4=[];
+console.log(infoPazient);*/
+let SNILS;
+SNILS=prompt("Введите SNILS пациента", SNILS);
+infoname=person[SNILS];
+console.log(infoname);
+alert("Информация о пациенте"+ infoname);
+let phase;
+phase=prompt("Введите действие или медотвод, или назначено, или исполнено");
+infoname.push(phase);
+console.log(infoname);
+person[SNILS]=infoname;
 console.log(person);
 </script>
 </body>
