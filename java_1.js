@@ -1,0 +1,22 @@
+"Привет,Java!"
+var myThing;
+myThing=5;
+myThing="это строка";
+var numberNine=9;
+var stringNine="9";
+numberNine + numberNine;
+stringNine + stringNine;
+var greeting ="привет.";
+var myName = "Ник";
+greeting+ myName;
+myName.length;
+var name_orz="ОРВИ";
+var name_v="ветрянка"; 
+var num_orz_mon = 2;
+var num_orz_tues = 4;
+var num_v_wedn = 3;
+var num_orz_wedn = 2;
+num_orz_week=num_orz_mon+num_orz_tues+num_orz_wedn;
+name_orz+num_orz_week;
+num_v_week=num_v_wedn;
+name_orz+num_orz_week+num_v_week;
